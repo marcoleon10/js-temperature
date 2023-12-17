@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!--
     <div class="container">
         
         <div class = "info-temperature">
@@ -21,7 +22,51 @@
         </div>
     
     </div>
-    <script src="./scripts/practice2.js"></script>
+    -->
+
+
+
+    
+    <header class="site-header">
+        <h1>My first JS code</h1> <p id="notifications">the notifications</p>
+    </header>
+    <div class="login">
+        <input type="email" placeholder="Enter your email: " id="txtUserName">
+        <input type="password" placeholder="Enter your password: " id="txtPassword">
+
+        <button onclick="login();" class="btn-login"> Login </button>
+    </div>
+    
+    <!--add a value(input)-->
+    
+    <div class="addStudents">
+        
+        <h1>Students</h1> 
+        <input type="text" placeholder="Enter a new student " id="newStudent">
+        <button onclick="addStudent();" class="btn-add"> Add </button>
+        <p id="listStudents"></p>
+    </div>
+
+    <div class = "info-temperature">
+        <h1>JavaScript</h1>
+        <input type="number" id = "start" placeholder="Enter the temperature: " id="txtTemperature">
+        <select onchange="convertTemperatureButton(value);" id="scale">
+            <option value="C">Celsius</option>
+            <option value="F">Fahrenheit</option>
+          </select>
+        <button onclick="convertTo();" id = "btnConvert">Convert to Fahrenheit</button>
+
+        <h3>Results</h3>
+        <div id="results"></div>
+    </div>
+    
+
+
+    
+
+    
+
+    <script src="./scripts/practice3.js"></script>
     
     
 </body>

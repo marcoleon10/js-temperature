@@ -1,26 +1,72 @@
-*{
-    padding:0;
-    text-align: center;
-}
+
 
 body{
     font-family: arial;
     background-color: #f4f4f4;
     
 }
-
-p{
-    line-height: 2;
-}
-
+/*
 .container{
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-image: url(/img/nubes.png);
-    background-size: cover; /* or 'contain' or specify width and height */
+    background-size: cover; /* or 'contain' or specify width and height 
     
 }
 
+/*Header*/
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#notification{
+    font-size: 12px;
+}
+
+/*log in*/
+
+.login{
+    background-color: #dedede;
+    height: 200px;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.login input{
+    display: block;
+    margin: 20px;
+    width: 80%;
+    padding: 2px;
+    font-size: 18px;
+}
+
+.login button{
+    display: block;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    margin: 20px;
+
+
+}
+
+.btn-login{
+    background-color: #3498db;
+  color: #fff;
+  border: 2px solid white;
+  font-size: 35px;
+}   
+
+.btn-login:hover {
+    background-color: red;
+    border: 2px solid #2980b9;
+  }
 
